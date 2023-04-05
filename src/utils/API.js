@@ -6,7 +6,7 @@ import Geocode from "react-geocode";
 Geocode.setApiKey(process.env.REACT_APP_GOOGLE_KEY);
 
 // LIVE SERVER
-const URL_PREFIX = "https://wastenot.herokuapp.com";
+const URL_PREFIX = "https://wastenot-kitchen-app.herokuapp.com";
 
 const API = {
   //login user
