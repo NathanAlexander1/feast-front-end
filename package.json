@@ -48,18 +48,5 @@
     "autoprefixer": "^10.4.13",
     "postcss": "^8.4.19",
     "tailwindcss": "^3.2.4"
-  },
-  "description": "## Description",
-  "main": "postcss.config.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/NathanAlexander1/feast-front-end.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/NathanAlexander1/feast-front-end/issues"
-  },
-  "homepage": "https://github.com/NathanAlexander1/feast-front-end#readme"
+  }
 }

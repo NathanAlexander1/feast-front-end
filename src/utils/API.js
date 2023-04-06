@@ -268,6 +268,16 @@ const API = {
       }
     );
   },
+
+  getFoodBanks: (lat,lng,radius=7500) => {
+    return fetch(`${URL_PREFIX}/api/foodbanks/?lat=${lat}&lng=${lng}&radius=${radius}`, {
+      method: "GET",
+      // body: JSON.stringify({lat:lat,lng:lng,radius:radius}),
+      headers: {
+        "Content-Type": "application/json",
+      },
+    }).then((res) => res.json());
+  }
 };
 
 export default API;
