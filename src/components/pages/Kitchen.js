@@ -116,7 +116,7 @@ function Kitchen(props) {
           <input
             name="zipCode"
             className="bg-white text-black rounded-lg mr-1 mb-1 mt-0.5 leading-tight w-full h-10 appearance-none block"
-            placeholder="Please enter your kitchen's full address"
+            placeholder="Address?"
             value={newKitchenLocation}
             // onChange={(e) => setNewKitchenLocation(e.target.value)}
 
