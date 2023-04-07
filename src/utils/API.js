@@ -269,7 +269,7 @@ const API = {
     );
   },
 
-  getFoodBanks: (lat,lng,radius=7500) => {
+  getFoodBanks: (lat,lng,radius=5000) => {
     return fetch(`${URL_PREFIX}/api/foodbanks/?lat=${lat}&lng=${lng}&radius=${radius}`, {
       method: "GET",
       // body: JSON.stringify({lat:lat,lng:lng,radius:radius}),
